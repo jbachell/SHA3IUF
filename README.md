@@ -1,4 +1,17 @@
-# C implementation of SHA-3 and Keccak with Init/Update/Finalize API
+# SHA3
+
+SHA3 uses a [sponge construction](https://en.wikipedia.org/wiki/SHA-3).  The goal here is to use machine learning to help find collisions in this function.  We will use a combination of C and python to do this.
+
+## Our goals
+
+1. Fully understand exactly how SHA3 works.
+2. Figure out techniques to reverse this function.  I intend to use machine learning to some extent.  
+
+
+
+
+
+## OLD_README: C implementation of SHA-3 and Keccak with Init/Update/Finalize API
 
 The purpose of this project is:
 
